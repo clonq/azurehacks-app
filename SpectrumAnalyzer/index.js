@@ -1,7 +1,8 @@
 // const storage = require('azure-storage');
 // const blobService = storage.createBlobService();
 
-module.exports = (context, myBlob) => {
+// module.exports = (context, myBlob) => {
+module.exports = (context) => {
     // const blobName = context.bindingData.name;
     // const contentType = context.bindingData.properties.contentType;
 
