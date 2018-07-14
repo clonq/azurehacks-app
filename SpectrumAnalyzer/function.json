@@ -1,13 +1,3 @@
 {
-  "disabled": false,
-  "bindings": [
-    {
-      "name": "myBlob",
-      "type": "blobTrigger",
-      "direction": "in",
-      "path": "recordings/{name}",
-      "connection": "AzureWebJobsStorage",
-      "datatype": "binary"
-    }    
-  ]
+  "disabled": false
 }
