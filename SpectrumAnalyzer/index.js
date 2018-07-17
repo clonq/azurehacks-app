@@ -19,7 +19,8 @@ module.exports = function (context) {
     const blobName = context.bindingData.name;
     const contentType = context.bindingData.properties.contentType;
 
-    context.log(`analyzing audio spectrum, blobName: ${blobName}, contentType: ${contentType}`);
+    console.log(`analyzing audio spectrum, blobName: ${blobName}, contentType: ${contentType}`);
+    // context.log(`analyzing audio spectrum, blobName: ${blobName}, contentType: ${contentType}`);
 
     context.res = {
         status: 200,
