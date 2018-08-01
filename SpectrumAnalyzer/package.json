@@ -10,7 +10,7 @@
   },
   "scripts": {
     "setup-app-deployment": "az functionapp deployment source config --name azurehacks --resource-group azurehacks --branch develop --manual-integration --repo-url https://github.com/clonq/azurehacks-app",
-    "push-code": "cd .. && git add . && git commit -m \"wip\"",
+    "push-code": "cd .. && git add . && git commit -m \"wip\" && git push origin develop",
     "sync-code": "az functionapp deployment source sync --name azurehacks --resource-group azurehacks"
   }
 }
