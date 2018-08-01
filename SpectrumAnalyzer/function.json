@@ -5,7 +5,7 @@
       "authLevel": "anonymous",
       "type": "blobTrigger",
       "direction": "in",
-      "name": "wav",
+      "name": "mp4",
       "path": "buzz",
       "connection":"azurehacksblobs_STORAGE"
     }
