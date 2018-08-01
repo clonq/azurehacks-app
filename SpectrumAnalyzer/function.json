@@ -7,7 +7,7 @@
       "direction": "in",
       "name": "wav",
       "path": "buzz",
-      "connection":"todo"
+      "connection":"azurehacksblobs_STORAGE"
     }
   ]
 }
