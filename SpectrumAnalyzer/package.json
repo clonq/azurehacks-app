@@ -4,9 +4,12 @@
   "description": "audio spectrum analyzer",
   "main": "index.js",
   "dependencies": {
-    "azure-storage": "^2.10.0"
+    "fft-js": "0.0.11",
+    "lodash": "^4.17.10",
+    "web-audio-api": "^0.2.2"
   },
   "scripts": {
+    "setup-app-deployment": "az functionapp deployment source config --name azurehacks --resource-group azurehacks --branch develop --manual-integration --repo-url https://github.com/clonq/azurehacks-app",
     "push-code": "git add . && git commit -m \"wip\"",
     "sync-code": "az functionapp deployment source sync --name azurehacks --resource-group azurehacks"
   }
