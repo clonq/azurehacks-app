@@ -1,0 +1,13 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "blobTrigger",
+      "direction": "in",
+      "name": "wav",
+      "path": "buzz",
+      "connection":"todo"
+    }
+  ]
+}
